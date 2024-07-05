@@ -1,0 +1,45 @@
+.shop {
+  padding: 20px;
+  text-align: center;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-family: "poppins";
+}
+.product:hover {
+  color: rgb(59, 30, 121);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-list button {
+  background-color: #0e2962;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  flex-direction: row;
+  margin-left: 5px;
+  font-family: "poppins";
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #d73e9c;
+}

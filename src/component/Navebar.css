@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    background-color: #0e2962;
+    color: #fff;
+    font-family: 'poppins';
+
+  }
+  
+  .navbar-logo a {
+    text-decoration: none;
+    color: #d73e9c;
+    font-size: 35px;
+    
+    
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+  }
+  .navbar-links a:hover{
+    color: #d73e9c;
+  }
+   
+  .cart-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+  }
+  
